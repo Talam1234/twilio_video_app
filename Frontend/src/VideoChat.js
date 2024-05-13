@@ -16,7 +16,7 @@ const VideoChat = () => {
 
   useEffect(() => {
     const fetchToken = async () => {
-      const response = await axios.get('http://localhost:5000/api/token?identity=user123');
+      const response = await axios.get('https://principled-comfortable-redcurrant.glitch.me/api/token?identity=user123');
       return response.data.token;
     };
 
